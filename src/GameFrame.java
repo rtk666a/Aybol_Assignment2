@@ -3,14 +3,14 @@ import java.util.Scanner;
 public class GameFrame {
 
     public final int  hiddenNumber = (int) (Math.random()*100);
-    public int GameTries = 5;
+    public int gameTries = 5;
     int userNumber;
     public final  int RangeMax = 100;
     public final  int RangeMin = 0;
     Scanner scanner = new Scanner(System.in);
 
     public void Game(int userNumber) {
-        Game(userNumber , GameTries);
+        Game(userNumber , gameTries);
     }
 
 
