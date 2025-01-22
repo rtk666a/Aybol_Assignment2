@@ -6,7 +6,7 @@ public class Main {
     public static int gameTries = 5;
     static int userNumber;
     public static final  int rangeMax = 100;
-    public static final  int rangeMin = 0;
+    public static final  int rangeMin = 1;
     static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
